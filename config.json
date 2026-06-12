@@ -1,0 +1,38 @@
+﻿{
+  "version": "2.1",
+  "chrome": {
+    "auto_detect": true,
+    "custom_path": "",
+    "port": 9222,
+    "profile_dir": "chrome_profile"
+  },
+  "output": {
+    "dir": "output",
+    "desktop_shortcut": false,
+    "desktop_dir_name": "MediaExport_Data"
+  },
+  "downloads": {
+    "dir": "downloads"
+  },
+  "backup": {
+    "dir": "backup"
+  },
+  "platforms": {
+    "douyin": {
+      "enabled": true,
+      "profile_name": "DouyinAutomation",
+      "home_url": "https://creator.douyin.com/creator-micro/home"
+    },
+    "xhs": {
+      "enabled": true,
+      "profile_name": "XiaohongshuAutomation",
+      "home_url": "https://creator.xiaohongshu.com/new/home"
+    },
+    "wechat": {
+      "enabled": true,
+      "profile_name": "WechatAutomation",
+      "home_url": "https://channels.weixin.qq.com/micro/statistic",
+      "stat_page": "https://channels.weixin.qq.com/platform/statistic/post"
+    }
+  }
+}
