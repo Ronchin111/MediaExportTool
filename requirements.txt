@@ -1,0 +1,5 @@
+# MediaExportTool 依赖
+# Python 版本要求: 3.10+
+
+playwright>=1.40.0
+openpyxl>=3.1.0
