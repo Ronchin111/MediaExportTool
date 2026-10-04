@@ -1,0 +1,21 @@
+{
+  "top_menu_selector": ".finder-ui-desktop-menu__icon_menu__name",
+  "sub_menu_selector": ".finder-ui-desktop-sub-menu__item",
+  "menus": {
+    "数据中心": "数据中心",
+    "视频数据": "视频数据",
+    "全部视频": "全部视频",
+    "单篇视频": "单篇视频",
+    "关注者数据": "关注者数据"
+  },
+  "frame_keywords": {
+    "post": "micro/statistic/post",
+    "follower": "micro/statistic/follower"
+  },
+  "fingerprint": {
+    "video_all": ["数据中心", "全部视频", "下载表格"],
+    "video_single": ["数据中心", "单篇视频", "下载表格"],
+    "follower": ["数据中心", "关注者数据", "增长详情"],
+    "fans": ["数据中心", "关注者画像"]
+  }
+}

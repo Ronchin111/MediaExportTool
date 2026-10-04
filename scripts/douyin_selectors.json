@@ -1,0 +1,23 @@
+{
+  "section": {
+    "strategies": [
+      {"name": "header_exact_class", "type": "css", "selector": "div[class^='header-']", "has_text": "{title}"},
+      {"name": "header_any_class", "type": "css", "selector": "div[class*='header']", "has_text": "{title}"}
+    ]
+  },
+  "range_radio": {
+    "strategies": [
+      {"name": "span_has_text", "type": "css", "selector": "span", "has_text": "{label}"},
+      {"name": "text_fuzzy", "type": "text", "text": "{label}", "exact": false}
+    ]
+  },
+  "export_button": {
+    "strategies": [
+      {"name": "button_has_text", "type": "css", "selector": "button", "has_text": "导出数据"},
+      {"name": "text_fuzzy", "type": "text", "text": "导出数据", "exact": false}
+    ]
+  },
+  "fingerprint": {
+    "required": ["数据总览", "作品数据", "粉丝数据", "导出数据"]
+  }
+}
